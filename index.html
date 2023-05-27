@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d664e133f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lekcia 19</title>
+</head>
+<body>
+    <div class="left-side">
+        <form action="">
+            <div class="searchbox">
+            <input type="text" name="search" id="search-input" placeholder="Search">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <textarea name="textarea" id="input-textarea" cols="30" rows="10"></textarea>
+            <div class="button-box">
+            <button id="crypt">Šifrovanie textu</button>
+            <button id="analys">Analýza textu</button>
+            </div>
+            <div class="crypt-text">
+            <textarea name="crypted" id="crypted" cols="30" rows="10" readonly></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="right-side">
+        <form action="">
+            <input type="text" name="found-text" id="found-text" placeholder="Hľadané slovíčko" readonly>
+            <label class="result">Výsledky analýzy</label>
+            <label>Dľžka textu</label>
+            <input type="text" name="length" id="length" readonly>
+            <label>Dľžka textu bez medzier</label>
+            <input type="text" name="length-without-space" id="length-without-space" readonly>
+            <label>Počet číslic v texte</label>
+            <input type="text" name="numbers-in-text" id="numbers-in-text" readonly>
+            <label>Najdlhšie slovo a počet písmen</label>
+            <input type="text" name="longest-word" id="longest-word" readonly>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

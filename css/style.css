@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    outline: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fdf6fd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #F5ECD7;
+}
+.left-side,
+.right-side{
+    background: #4D4545;
+    border: 8px solid #c2baa6;
+    border-radius: 12px;
+}
+.left-side{
+    margin-right: 16px;
+}
+.left-side form,
+.right-side form{
+    width: 350px;
+    height: 440px;
+    padding: 12px 16px;    
+}
+.searchbox{
+    padding: 12px 0px 12px 3px;
+    position: relative;
+}
+.searchbox input{
+    width: 93%;
+    padding: 10px 8px 8px ;
+    background: #353535;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid black;
+}
+.searchbox input::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.searchbox button{
+   position: absolute;
+   right: 7.5px;
+   top: 14px;
+   min-height: 33.6px;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   color: #fff;
+}
+textarea{
+    margin: 12px 4px;
+    resize: none;
+    width: 95%;
+    height: 110px;
+    font-size: 16px;
+    background: #8FBF9F;
+    font-size: 18px;
+}
+.button-box{
+    text-align: center;
+    margin-top: 17px;
+}
+#crypt{
+    padding: 15px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #F18F01;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+#analys{
+    padding: 15px 30px;
+    cursor: pointer; 
+    background: #F18F01;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+#crypted{
+    margin-top: 30px;
+}
+.right-side form{
+    display: flex;
+    flex-direction: column;
+}
+#found-text{
+    padding: 13px 8px 10px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    background: #c2baa6;
+    border: 1px solid black;
+}
+#found-text::placeholder{
+    font-size: 16px;
+    color: #fff;
+}
+.result{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 16px;
+}
+.right-side label{
+    font-size: 17px;
+    margin: 8px 0px 2px 0px;
+}
+.right-side input{
+    margin-bottom: 15px;
+    padding: 7px 12px 5px;
+    background: #c2baa6;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
